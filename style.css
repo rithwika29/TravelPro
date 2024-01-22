@@ -1,0 +1,79 @@
+#dec{
+    height:50px;
+    width:70px;
+    margin-right:300px;
+    margin-left: 20px;
+}
+#decore{
+    display:inline-block
+}
+a{
+    margin-right:50px;
+}
+#navbar{
+    height:30px;
+    display:inline-block;
+    text-decoration-color: black;
+    font-weight: bold;
+}
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+#traveller{
+    height: 500px;
+    margin-left:0px;
+    height: 510px;
+    width: 550px;
+}
+#travel_text{
+    font-size: 4.5em;
+    color:midnightblue;
+}
+p{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#built{
+    font-family:sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+#find{
+    border:1px solid black;
+    border-radius:10px;
+    background-color: yellow;
+    padding: 10px;
+}
+.grid_parent{
+    display: grid;
+    grid-template-columns: 1.8fr 0.3fr;
+    grid-gap: 10px;
+}
+#offer{
+    margin-right: 40px;
+    margin-left:60px;
+}
+#plus{
+    margin-right:0px;
+    margin-left:0px;
+}
+.flex-container {
+    display: flex;
+  }
+.flex-container > div {
+    margin: 40px;
+    padding: 30px;
+    font-size: 20px;
+  }
+  img{
+    height:100px;
+    width:80px;
+  }
+.grid_child{
+    margin-left:30px;
+}
+#plus_png{
+    margin-left:40px;
+    margin-right:0px;
+}
